@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Blob.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Blob.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>main2.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>C:\Apps\opencv\build\include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>C:\Apps\opencv\release\lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>opencv_calib3d342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_calib3d_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_core342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_core_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_dnn342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_dnn_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_features2d342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_features2d_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_flann342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_flann_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_highgui342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_highgui_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgcodecs342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgcodecs_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgproc342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgproc_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ml342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ml_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_objdetect342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_objdetect_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_photo342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_photo_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_shape342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_shape_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_stitching342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_stitching_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_superres342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_superres_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_video342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_video_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_videoio_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_videostab342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_videostab_pch_dephelp</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Blob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Blob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>C:/Apps/opencv/build/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>C:/Apps/opencv/release/lib</pElem>
+          </linkerAddLib>
+          <commandlineTool>c++</commandlineTool>
+          <linkerLibItems>
+            <linkerLibLibItem>opencv_calib3d342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_calib3d_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_core342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_core_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_dnn342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_dnn_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_features2d342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_features2d_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_flann342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_flann_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_highgui342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_highgui_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgcodecs342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgcodecs_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgproc342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgproc_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ml342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ml_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_objdetect342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_objdetect_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_calib3d_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_core_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_dnn_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_features2d_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_imgcodecs_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_imgproc_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_objdetect_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_photo_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_stitching_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_superres_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_video_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_perf_videoio_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_photo342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_photo_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_shape342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_shape_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_stitching342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_stitching_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_superres342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_superres_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_calib3d_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_core_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_dnn_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_features2d_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_flann_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_highgui_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_imgcodecs_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_imgproc_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_ml_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_objdetect_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_photo_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_shape_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_stitching_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_superres_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_video_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_videoio_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_test_videostab_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ts342</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ts_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_video342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_video_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_videoio342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_videoio_pch_dephelp</linkerLibLibItem>
+            <linkerLibLibItem>opencv_videostab342.dll</linkerLibLibItem>
+            <linkerLibLibItem>opencv_videostab_pch_dephelp</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Blob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Blob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
